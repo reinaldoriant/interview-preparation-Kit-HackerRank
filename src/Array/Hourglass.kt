@@ -1,3 +1,4 @@
+package Array
 //import java.util.*
 //
 //Given a 6x6  2D Array, Calculate the hourglass sum for every hourglass in arr , then print the maximum hourglass sum. The array will always be 6x6
