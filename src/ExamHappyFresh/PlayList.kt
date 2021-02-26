@@ -1,3 +1,4 @@
+/*
 package ExamHappyFresh
 
 import java.util.HashMap
@@ -22,7 +23,7 @@ fun playlist(songs: Array<Int>): Long {
 
 fun main(args: Array<String>) {
     val songsCount = readLine()!!.trim().toInt()
-    val songs=Array<Int>(songsCount, { 0 })
+    val songs=Array<Int>(songsCount) { 0 }
     for(i in 0 until songsCount){
         val songsItem= readLine()!!.trim().toInt()
         songs[i]=songsItem
@@ -30,3 +31,4 @@ fun main(args: Array<String>) {
     val result=playlist(songs)
     print(result)
 }
+*/
